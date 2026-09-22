@@ -3,6 +3,6 @@ import { env } from "./config/env.js";
 
 const PORT = env.PORT;
 
-app.listen(PORT, ( ) => {
-console.log(`Servidor corriendo en http://loca1host:${PORT}`);
+app.listen(PORT, () => {
+    console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
